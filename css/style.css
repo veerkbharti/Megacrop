@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff !important;
+    background-color: #101214 !important;
+}
+p{
+    color: #c1c4c8;
+}
+.myborder{
+    border-bottom: 1px solid #909181;
+}
+.myborder-top{
+    border-top: 1px solid #909181;
+}
+/* Header Codes */
+#myHeader{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 0px;
+}
+#myHeader .trans{
+    background: rgb(255, 255, 255, 0.2);
+}
+#myHeader #myHeading{
+    padding: 50px 130px;
+}
+#myHeader #myHeading h1{
+    font-size: 32px;
+    font-weight: 350;
+}
+#myHeader #myHeading p{
+    line-height: 30px;
+    padding: 20px 30px 50px;
+}
+#myHeader #myHeading button{
+    width: 150px;
+    height: 50px;
+}
+
+/* Profile scetion */
+#profile{
+    background-color: #0c0e0f;
+    padding-top: 70px;
+    text-align: center;
+}
+#profile .col-lg-4{
+    padding-bottom: 70px;
+}
+#profile i{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+#profile p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+#lastSection{
+    padding-top: 50px;
+    
+}
+#lastSection h5{
+    margin-bottom: 20px;
+} 
+#lastSection p{
+    font-size: 13px;
+}
+#lastSection ul{
+    padding-left: 20px;
+}
+#lastSection .left p{
+    margin: 10px 0px 15px;
+}
+#lastSection .right img{
+    float: left;
+    margin-right: 15px;
+}
+#lastSection .right p{
+    line-height: 28px;
+}
+#lastSection footer{
+    text-align: center;
+    padding: 40px 0px 50px;
+    border-top: 1px solid #909181;
+    margin-top: 60px;
+}
+@media (max-width: 992px){
+    #myHeader #myHeading{
+        padding: 50px 0px;
+    }
+    #lastSection h5{
+        text-align: center;
+    }
+}
